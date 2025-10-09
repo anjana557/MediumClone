@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mediumclone
+
+  h2:
+    console:
+      enabled: true
+      path: /console
+  datasource:
+    url: jdbc:h2:mem:testdb?MODE=MYSQL;
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop
+
+
