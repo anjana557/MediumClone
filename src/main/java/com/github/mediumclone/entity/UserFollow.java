@@ -15,6 +15,7 @@ import java.util.Objects;
         name = "user_follow",
         uniqueConstraints = {@UniqueConstraint(columnNames = {"follower_id", "following_id"})}
 )
+
 public class UserFollow {
 
    @Id
